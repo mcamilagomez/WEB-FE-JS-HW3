@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+body {
+    font-family: "Moderustic", sans-serif;
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    display: inline-block;
+    text-align: justify;
+}
+
+/*HEADER*/
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    color: #ffff;
+    height: 170px;
+}
+
+.sec1{
+    margin: 0;
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 h1{
+    height: 50px;
+}
+.sec1 img{
+    width: 160px;
+}
+
+.sec2{
+    display: inline;
+    padding-left: 15px;
+}
+
+
+
+/*MAIN*/
+.main-title img,h2{
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.main-title img{
+    margin-right: 10px; 
+    width: 40px;
+}
+
+.concepto img{
+    width: 60px;
+}
+
+#main-title img,h2{
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+#main-title img{
+    width: 40px;
+}
+
+.concepto {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+}
+
+.concepto p {
+    margin-right: 20px;
+}
+
+.concepto img {
+    width: 40%; 
+    height: auto; 
+}
+
+.concepto p, h3, ul{
+    display: inline;
+    margin-right: 10px;
+    gap: 20px;
+}
+
+span{
+    color: #e30000;
+}
+
+code{
+    color: #be0707;
+}
+
+.verde{
+    color: #0a6f01;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #303030;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none; 
+}
+
+footer img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    width: 30px; 
+    height: 31px;
+}
